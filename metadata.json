@@ -1,0 +1,6 @@
+{
+  "name": "VidTranslate",
+  "description": "Real-time YouTube video translator with transcript extraction and Gemini AI translation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

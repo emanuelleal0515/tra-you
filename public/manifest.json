@@ -1,0 +1,21 @@
+{
+  "name": "VidTranslate",
+  "short_name": "VidTrans",
+  "description": "Real-time YouTube Video Translator",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0D0D0D",
+  "theme_color": "#FF0000",
+  "icons": [
+    {
+      "src": "https://picsum.photos/id/1/192/192",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://picsum.photos/id/1/512/512",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

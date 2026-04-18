@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Segoe UI", Tahoma, sans-serif;
+  --font-display: "Arial Black", Gadget, sans-serif;
+  
+  --color-yt-black: #0D0D0D;
+  --color-yt-surface: #1A1A1A;
+  --color-yt-red: #FF0000;
+  --color-yt-dim: #AAAAAA;
+  --color-yt-line: #333333;
+}
+
+@layer base {
+  body {
+    @apply bg-yt-black text-white font-sans antialiased overflow-hidden;
+  }
+}
+
+.transcript-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.transcript-scrollbar::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+.transcript-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-yt-line rounded-full hover:bg-yt-dim/50;
+}
